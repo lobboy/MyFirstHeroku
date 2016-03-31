@@ -1,0 +1,45 @@
+<!--
+　　　　　　 ／ﾌﾌ 　　　　　　 　ム｀ヽ
+　　　　　　/ ノ)　　 ∧∧　　　　　）　ヽ
+　　　　　ﾞ/ ｜　　(´・ω・`）ノ⌒（ゝ._,ノ　　你…渴望力量嗎？
+　　　　　/　ﾉ⌒7⌒ヽーく　 ＼　／
+　　　　　丶＿ ノ ｡　　 ノ､　　｡|/　　　　　先猜沒人看到這段
+　　　　　　　 `ヽ `ー-'_人`ーﾉ
+　　　　　　　　 丶 ￣ _人'彡ﾉ
+　　　　　　　　　ﾉ　　r'十ヽ/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><!-- utf-8好朋友- -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bootstrap沒學過 -_-</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h1>heroku nerd</h1>
+<div class="container">
+              <div class="container-fluid">
+                <div class"row centered">
+                <% for(var i=0; i<pics.length; i++) { %>
+                    <div class="col-md-3 "><!-- 直3列-->
+                        <div class="centered "><!-- 對齊中-->
+                            <img  class="img-responsive content adj" src="assets/images/<%= pics[i]%>" >
+                            <h1 >this is pic <%= i %></h1>
+                        </div>
+                    </div>
+                <% } %>
+                </div>
+              </div><!-- end container -->
+
+
+</div>
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+</body>
+</html>

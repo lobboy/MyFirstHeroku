@@ -1,0 +1,23 @@
+{
+  "name": "myfirstheroku",
+  "version": "1.0.0",
+  "description": "first-heroku-for-hw5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lobboy/myfirstheroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lobboy/myfirstheroku/issues"
+  },
+  "homepage": "https://github.com/lobboy/myfirstheroku#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
